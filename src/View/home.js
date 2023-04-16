@@ -180,7 +180,7 @@ export default class Home extends Component {
         <section id="about" className={`hero is-fullheight ${cstyles.svgg}`} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
           <div className="columns is-desktop" style={{ padding: '10%' }}>
             <div className="column  has-text-centered" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <img alt="AlexanderDavis" className={cstyles.rotatecenter} style={{ position: 'absolute', zIndex: 1, }} src={me} />
+              <img alt="AlexanderDavis" className={cstyles.rotatecenter} style={{ position: 'absolute', zIndex: 1, height: 450, marginBottom:100}} src={me} />
             </div>
             <div className="column is-three-fifths-desktop" style={{ fontFamily: 'nunito', paddingLeft: 0 }}>
               <h1 style={{ display: 'inline-block', fontSize: '2rem', color: 'rgb(28, 255, 189)', fontWeight: 500 }}>ME</h1>
